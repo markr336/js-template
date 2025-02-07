@@ -1,0 +1,27 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageFromCSS,
+.imageFromHTML,
+.imageFromJS {
+  margin: 20px;
+}
+
+/* Example of how to use images from HTML */
+.imageFromCSS {
+  width: 500px;
+  height: 500px;
+  background-image: url(./assets/images/cssImageLoad.jpg);
+}
